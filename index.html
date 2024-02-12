@@ -15,10 +15,32 @@
         .name {
             background-color: rgb(241, 237, 231);
             /* border: 1px solid black; */
-            width: 400px;
+            width: 40%;
             /* text-align: center; */
-            height: auto;
-            line-height: 40px;
+            height:60hv;
+            line-height: 30px;
+        }
+        @media(max-width:1000px) {
+            .name{
+                width: 50%;
+            }
+        }
+        @media(max-width:800px) {
+            .name{
+                width: 60%;
+                padding: 15px;
+            }
+        }
+        @media(max-width:600px) {
+            .name{
+                width: 80%;
+            }
+        }
+        @media(max-width:400px) {
+            .name{
+                width: 100%;
+            }
+            
         }
 
         .get {
@@ -46,7 +68,7 @@
             font-size: 14px;
             font-style: italic;
             font-weight: bold;
-            /* width: 100%; */
+            width: 94%;
         }
 
         .send {
@@ -65,10 +87,12 @@
         form label {
             font-size: 30px;
             margin-top: 60px;
+            width: 80%;
         }
 
         form input {
             font-size: 20px;
+            width: 80%;
         }
 
         /* 
@@ -86,11 +110,11 @@
                 <h1>Get quote</h1>
             </div>
             <div class="input">
-                <label for="name">Name</label>
+                <label for="name">Name.....</label>
                 <input type="text" id="name" name="name" placeholder="Name" autofocus><br><br>
                 <label for="Phone no">Phone no</label>
                 <input type="phone no" id="phone no" name="phone no" placeholder="phone no" maxlength="10"><br><br>
-                <label for="email">Email Id</label>
+                <label for="email">Email Id.</label>
                 <input type="text" id="email" name="email" placeholder="Enter Your Email"><br>
             </div>
             <div class="paira">
